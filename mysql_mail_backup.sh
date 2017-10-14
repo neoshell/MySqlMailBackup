@@ -1,4 +1,4 @@
-# Set your config here =========================================================
+# Your configs
 
 mysql_user=your_user
 mysql_pass=your_pass
@@ -6,7 +6,7 @@ mysql_database=your_database
 temp_dir=/your/temp/dir/
 mail_address=your_mail@gmail.com
 
-#===============================================================================
+# Backup MySQL database, compress, send via email
 
 date_string=$(date +%Y%m%d)
 
